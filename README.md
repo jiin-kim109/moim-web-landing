@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Moim Landing Page
+
+A minimalistic landing page for Moim - a location-based real-time chat application.
+
+## About Moim
+
+Moim is a location-based community chat application. It allows users to:
+- Join real-time conversations with people nearby
+- Formulate hangouts and meetups
+- Discover and connect with their local community
+
+## Features
+
+- **100vh Single Page Design** - No scrolling required
+- **Minimalistic UI** - Clean and modern design
+- **Custom Color Scheme** - Warm orange primary colors
+- **Responsive Design** - Works on all devices
+- **App Store Integration** - Direct download link
+- **Terms of Use Page** - Complete legal documentation
 
 ## Getting Started
 
-First, run the development server:
-
+1. Install dependencies:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Run the development server:
+```bash
+npm run dev
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+3. Open [http://localhost:3000](http://localhost:3000) in your browser
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Project Structure
 
-## Learn More
+```
+moim-landing/
+├── app/
+│   ├── globals.css          # Custom CSS with color variables
+│   ├── layout.js            # Root layout with metadata
+│   ├── page.js              # Main landing page
+│   └── terms/
+│       └── page.js          # Terms of use page
+└── public/                  # Static assets
+```
 
-To learn more about Next.js, take a look at the following resources:
+## Color Scheme
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The project uses a custom color palette with warm orange as the primary color:
+- Primary: `hsl(20.5 90.2% 48.2%)` - Warm orange
+- Background: `hsl(0 0% 100%)` - White
+- Foreground: `hsl(24 9.8% 10%)` - Dark gray
+- Muted: `hsl(25 5.3% 44.7%)` - Medium gray
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Technologies Used
 
-## Deploy on Vercel
+- **Next.js 15** - React framework with App Router
+- **Tailwind CSS** - Utility-first CSS framework
+- **JavaScript** - No TypeScript as requested
+- **System Fonts** - No external font dependencies
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+The easiest way to deploy is using [Vercel Platform](https://vercel.com/new):
+
+1. Push your code to GitHub
+2. Import your repository to Vercel
+3. Deploy with zero configuration
