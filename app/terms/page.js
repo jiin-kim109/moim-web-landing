@@ -9,88 +9,100 @@ export default function Terms() {
           <Link href="/" className="inline-block mb-6 text-primary hover:text-primary/80 transition-colors">
             <h1 className="text-4xl font-bold">Moim</h1>
           </Link>
-          <h2 className="text-3xl font-semibold mb-4">Terms of Use</h2>
+          <h2 className="text-3xl font-semibold mb-4">Terms of Service</h2>
           <p className="text-muted-foreground">Last updated: {new Date().toLocaleDateString()}</p>
         </div>
 
         {/* Terms Content */}
-        <div className="prose prose-gray max-w-none">
+        <div className="prose prose-gray max-w-none space-y-8">
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">1. Acceptance of Terms</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              By downloading, installing, or using the Moim application ("App"), you agree to be bound by these Terms of Use ("Terms"). 
-              If you do not agree to these Terms, please do not use the App.
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Moim</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              By creating an account and using Moim, you agree to comply with these Terms of Service. 
+              Please read them carefully before proceeding.
             </p>
           </section>
 
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">2. Description of Service</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Community Standards</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Moim is a location-based real-time chat application that allows users to connect with people in their local area, 
-              participate in community discussions, and organize hangouts and meetups.
+              Moim is committed to providing a safe, respectful, and inclusive environment for all users. 
+              We have zero tolerance for the following:
             </p>
-          </section>
-
-          <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">3. User Conduct</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">You agree to:</p>
-            <ul className="list-disc pl-6 text-muted-foreground space-y-2">
-              <li>Use the App in compliance with all applicable laws and regulations</li>
-              <li>Respect other users and maintain a friendly community environment</li>
-              <li>Not share inappropriate, offensive, or harmful content</li>
-              <li>Not impersonate others or create fake accounts</li>
-              <li>Protect your account credentials and personal information</li>
+            <ul className="ml-6 space-y-2 text-muted-foreground">
+              <li>• Harassment, bullying, or threats against other users</li>
+              <li>• Hate speech, discrimination, or content targeting individuals based on race, religion, gender, sexual orientation, or other protected characteristics</li>
+              <li>• Sexually explicit, violent, or graphic content</li>
+              <li>• Spam, scams, or fraudulent activities</li>
+              <li>• Sharing of personal information without consent</li>
+              <li>• Illegal activities or content that violates local laws</li>
             </ul>
           </section>
 
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">4. Privacy and Location Data</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Moim uses location data to provide location-based chat services. By using the App, you consent to the collection 
-              and use of your location information as described in our Privacy Policy. You can control location sharing through 
-              your device settings.
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Content Moderation</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              We actively monitor and moderate content on our platform. Users who violate these terms 
+              will face immediate consequences including warnings, temporary suspensions, or permanent bans. 
+              We reserve the right to remove any content or terminate any account that violates these standards.
             </p>
           </section>
 
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">5. Content and Intellectual Property</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              Users retain ownership of the content they post. By posting content, you grant Moim a license to use, display, 
-              and distribute your content within the App. Moim respects intellectual property rights and will respond to 
-              valid copyright claims.
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Reporting Violations</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              If you encounter objectionable content or abusive behavior, please report it immediately. 
+              We take all reports seriously and will investigate promptly. Users are encouraged to 
+              block and report problematic accounts.
             </p>
           </section>
 
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">6. Termination</h3>
+            <h3 className="text-xl font-semibold mb-4 text-foreground">User Responsibilities</h3>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              We reserve the right to terminate or suspend your account at any time for violation of these Terms or for any 
-              other reason at our sole discretion. You may also delete your account at any time through the App settings.
+              As a user of Moim, you agree to:
+            </p>
+            <ul className="ml-6 space-y-2 text-muted-foreground">
+              <li>• Treat all community members with respect and kindness</li>
+              <li>• Report inappropriate behavior when you see it</li>
+              <li>• Keep your account secure and not share login credentials</li>
+              <li>• Provide accurate information in your profile</li>
+              <li>• Respect the privacy and boundaries of other users</li>
+            </ul>
+          </section>
+
+          <section className="mb-8">
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Privacy Policy</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              Your privacy is important to us. We collect and use your information only as described in our 
+              Privacy Policy. We do not sell your personal data to third parties and implement strong 
+              security measures to protect your information.
             </p>
           </section>
 
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">7. Disclaimer of Warranties</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              The App is provided &quot;as is&quot; without warranties of any kind. We do not guarantee that the App will be 
-              error-free or continuously available.
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Enforcement</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              Violations of these terms may result in immediate action including content removal, 
+              account restrictions, or permanent bans without prior notice. We reserve the right to 
+              modify these terms at any time, and continued use constitutes acceptance of any changes.
             </p>
           </section>
 
           <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">8. Changes to Terms</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              We may update these Terms from time to time. We will notify users of significant changes through the App 
-              or other appropriate means.
+            <h3 className="text-xl font-semibold mb-4 text-foreground">Contact Us</h3>
+            <p className="text-muted-foreground leading-relaxed">
+              If you have questions about these terms or need to report a violation, 
+              please contact our support team through the app or email us at support@moimchat.com.
             </p>
           </section>
+        </div>
 
-          <section className="mb-8">
-            <h3 className="text-xl font-semibold mb-4 text-foreground">9. Contact Information</h3>
-            <p className="text-muted-foreground leading-relaxed mb-4">
-              If you have any questions about these Terms, please contact us at support@moim.app
-            </p>
-          </section>
+        {/* Agreement Notice */}
+        <div className="mt-12 p-6 bg-accent/20 rounded-lg border border-border">
+          <p className="text-sm text-muted-foreground leading-relaxed">
+            <strong className="text-foreground">Important:</strong> By using Moim, you acknowledge that you have read and agree to these Terms of Service and understand that Moim has zero tolerance for objectionable content and abusive users. You agree to follow the community standards and report any violations you encounter.
+          </p>
         </div>
 
         {/* Back to Home */}

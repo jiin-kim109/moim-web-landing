@@ -70,7 +70,7 @@ export default function Home() {
             href="/terms"
             className="text-muted-foreground hover:text-foreground transition-colors underline underline-offset-4"
           >
-            Terms of Use
+            Terms of Service
           </Link>
         </div>
       </main>
